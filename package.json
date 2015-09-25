@@ -4,7 +4,7 @@
   "private": false,
   "main": "dist/frigging-material-ui.js",
   "peerDependencies": {
-    "material-ui": "*",
+    "material-ui": "*"
   },
   "dependencies": {},
   "scripts": {
