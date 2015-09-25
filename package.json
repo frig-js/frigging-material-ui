@@ -1,0 +1,39 @@
+{
+  "name": "frigging-material-ui",
+  "version": "0.2.3",
+  "private": false,
+  "main": "dist/frigging-material-ui.js",
+  "peerDependencies": {
+    "material-ui": "*",
+  },
+  "dependencies": {},
+  "scripts": {
+    "preversion": "FRIG_ENV=\"production\" FRIG_MODE=\"core\" webpack --progress",
+    "version": "git add ./dist",
+    "postversion": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "coffee-script": "1.9.3",
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "css-loader": "*",
+    "style-loader": "*",
+    "stylus-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "babel-loader": "*",
+    "babel-core": "5.8.20",
+    "url-loader": "*",
+    "eslint-loader": "git+https://github.com/MoOx/eslint-loader.git#master",
+    "eslint": "1.0.0",
+    "babel-eslint": "*",
+    "react": "0.13.3",
+    "frig": "*",
+    "react-tap-event-plugin": "0.1.7",
+    "material-ui": "*",
+    "classnames": "*"
+  },
+  "engines": {
+    "node": "~0.12.x",
+    "npm": "2.7.x"
+  }
+}
