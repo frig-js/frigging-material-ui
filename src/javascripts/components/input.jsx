@@ -5,6 +5,7 @@ export default class extends React.Component {
 
   _fieldProps() {
     return {
+      valueLink: this.props.valueLink,
       style: this.props.style,
       floatingLabelText: this.props.floatingLabelText,
       hintText: this.props.inputHtml.placeholder,
