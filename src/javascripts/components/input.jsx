@@ -8,6 +8,7 @@ export default class extends React.Component {
       valueLink: this.props.valueLink,
       style: this.props.style,
       floatingLabelText: this.props.floatingLabelText,
+      disabled: this.props.disabled,
       hintText: this.props.inputHtml.placeholder,
       errorText: (this.props.errors||[]).join("\n")
     }

@@ -38,6 +38,13 @@ let SignIn = React.createClass({
         name="password"
         style={{marginTop: 24}}
       />
+      <br />
+      <f.input
+        name="disabled"
+        disabled={true}
+        style={{marginTop: 24}}
+      />
+
       <pre>{JSON.stringify(this.state)}</pre>
     </div>
   },
